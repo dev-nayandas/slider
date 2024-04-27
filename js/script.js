@@ -1,7 +1,7 @@
 var swiper = new Swiper(".slide-container", {
-  slidesPerView: 4,
-  spaceBetween: 20,
-  sliderPerGroup: 4,
+  slidesPerView: 3,
+  spaceBetween: 10,
+  sliderPerGroup: 3,
   loop: true,
   centerSlide: "true",
   fade: "true",
@@ -24,10 +24,10 @@ var swiper = new Swiper(".slide-container", {
       slidesPerView: 2,
     },
     768: {
-      slidesPerView: 3,
+      slidesPerView: 2,
     },
     1000: {
-      slidesPerView: 4,
+      slidesPerView: 3,
     },
   },
 });
